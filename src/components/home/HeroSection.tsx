@@ -16,20 +16,24 @@ export default function HeroSection() {
   const imgRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
-      gsap.from(titleRef.current, { y: 60, opacity: 0, duration: 1, ease: "power3.out", delay: 0.2 });
-      gsap.from(subRef.current, { y: 40, opacity: 0, duration: 0.8, ease: "power3.out", delay: 0.5 });
-      gsap.from(ctaRef.current, { y: 30, opacity: 0, duration: 0.8, ease: "power3.out", delay: 0.7 });
-      gsap.from(imgRef.current, { x: 80, opacity: 0, duration: 1.2, ease: "power3.out", delay: 0.4 });
-    }, heroRef);
-    return () => ctx.revert();
+    // Small delay to let LCP paint first, then animate
+    const timer = setTimeout(() => {
+      const ctx = gsap.context(() => {
+        gsap.from(titleRef.current, { y: 30, duration: 0.8, ease: "power3.out" });
+        gsap.from(subRef.current, { y: 20, duration: 0.6, ease: "power3.out", delay: 0.15 });
+        gsap.from(ctaRef.current, { y: 15, duration: 0.6, ease: "power3.out", delay: 0.25 });
+        gsap.from(imgRef.current, { x: 40, duration: 0.8, ease: "power3.out", delay: 0.1 });
+      }, heroRef);
+      return () => ctx.revert();
+    }, 50);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
     <section ref={heroRef} className="relative bg-[var(--color-umove-navy)] overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
-        <Image src="/images/Various-20ft-New-Build-Containers-min.jpg" alt="" fill className="object-cover opacity-10" />
+        <Image src="/images/Various-20ft-New-Build-Containers-min.jpg" alt="" fill className="object-cover opacity-10" priority />
         <div className="absolute inset-0 container-grid" />
       </div>
 

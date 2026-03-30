@@ -17,6 +17,7 @@ export default function ComparisonSection() {
             How We Compare in 2026
           </h2>
           <p className="mt-4 text-gray-500">U-Move Australia vs traditional self-storage facilities and other container providers in Perth. Data sourced from industry averages as of March 2026.</p>
+          <p className="mt-2 text-[var(--color-umove-red)] font-bold text-sm">Why choose U-Move? Lower prices, door-to-door delivery included, in-house modifications, and 25+ years of Perth expertise — all from one supplier.</p>
         </AnimatedSection>
 
         <div className="overflow-x-auto">
