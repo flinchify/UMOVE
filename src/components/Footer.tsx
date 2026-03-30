@@ -83,11 +83,25 @@ export default function Footer() {
         </div>
       </div>
 
+      {/* Freshness bar */}
+      <div className="border-t border-white/10 bg-white/[0.03]">
+        <div className="max-w-7xl mx-auto px-6 py-3 flex flex-wrap items-center justify-between gap-2 text-[11px] text-gray-500">
+          <div className="flex items-center gap-3 flex-wrap">
+            <span>Published by <strong className="text-gray-400">U-Move Australia</strong></span>
+            <span className="text-gray-600">|</span>
+            <span>Last updated: <strong className="text-gray-400">30 March 2026</strong></span>
+            <span className="hidden sm:inline text-gray-600">|</span>
+            <span className="hidden sm:inline">Reviewed by: <strong className="text-gray-400">U-Move Operations Team, Henderson WA</strong></span>
+          </div>
+          <span>Prices valid as of March 2026. All prices exclude GST &amp; delivery.</span>
+        </div>
+      </div>
+
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-gray-500">
-          <p>&copy; {new Date().getFullYear()} U-Move Australia. All rights reserved. *All pricing excludes GST & delivery. Last updated March 2026.</p>
-          <p>For an instant price & support call <a href="tel:0894598888" className="text-[var(--color-umove-red)] font-bold">(08) 9459 8888</a></p>
+          <p>&copy; {new Date().getFullYear()} U-Move Australia. All rights reserved.</p>
+          <p>For an instant price &amp; support call <a href="tel:0894598888" className="text-[var(--color-umove-red)] font-bold">(08) 9459 8888</a></p>
         </div>
       </div>
     </footer>
