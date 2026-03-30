@@ -6,7 +6,7 @@ import Image from "next/image";
 const ADMIN_PASSWORD = "umove-admin-2026";
 
 interface Quote { id: number; name: string; email: string; phone: string; company: string; service: string; size: string; location: string; message: string; date: string; status: "new"|"contacted"|"quoted"|"won"|"lost"; verified: boolean; }
-interface ContainerPrice { id: string; name: string; size: string; condition: string; priceMin: number; priceMax: number; }
+interface ContainerPrice { id: string; name: string; size: string; condition: string; priceMin: number; priceMax: number; visible: boolean; }
 interface FreightZone { zone: string; min: number; max: number; days: string; }
 
 const initQuotes: Quote[] = [
@@ -19,15 +19,15 @@ const initQuotes: Quote[] = [
 ];
 
 const initPrices: ContainerPrice[] = [
-  { id: "20ft-std-new", name: "20ft Standard", size: "20ft", condition: "New", priceMin: 3200, priceMax: 3600 },
-  { id: "20ft-std-used", name: "20ft Standard", size: "20ft", condition: "Used", priceMin: 2100, priceMax: 2500 },
-  { id: "20ft-hc-new", name: "20ft High Cube", size: "20ft", condition: "New", priceMin: 3800, priceMax: 4350 },
-  { id: "40ft-hc-new", name: "40ft High Cube", size: "40ft", condition: "New", priceMin: 6200, priceMax: 6700 },
-  { id: "40ft-hc-used", name: "40ft High Cube", size: "40ft", condition: "Used", priceMin: 3100, priceMax: 3600 },
-  { id: "10ft-hc-new", name: "10ft High Cube", size: "10ft", condition: "New", priceMin: 6400, priceMax: 7400 },
-  { id: "20ft-side", name: "20ft Side Opening", size: "20ft", condition: "New", priceMin: 9000, priceMax: 10000 },
-  { id: "40ft-side-4d", name: "40ft 4-Door Side Opening", size: "40ft", condition: "New", priceMin: 12200, priceMax: 13200 },
-  { id: "20ft-dg", name: "20ft Dangerous Goods", size: "20ft", condition: "New", priceMin: 19250, priceMax: 21500 },
+  { id: "20ft-std-new", name: "20ft Standard", size: "20ft", condition: "New", priceMin: 3200, priceMax: 3600, visible: true },
+  { id: "20ft-std-used", name: "20ft Standard", size: "20ft", condition: "Used", priceMin: 2100, priceMax: 2500, visible: true },
+  { id: "20ft-hc-new", name: "20ft High Cube", size: "20ft", condition: "New", priceMin: 3800, priceMax: 4350, visible: true },
+  { id: "40ft-hc-new", name: "40ft High Cube", size: "40ft", condition: "New", priceMin: 6200, priceMax: 6700, visible: true },
+  { id: "40ft-hc-used", name: "40ft High Cube", size: "40ft", condition: "Used", priceMin: 3100, priceMax: 3600, visible: true },
+  { id: "10ft-hc-new", name: "10ft High Cube", size: "10ft", condition: "New", priceMin: 6400, priceMax: 7400, visible: true },
+  { id: "20ft-side", name: "20ft Side Opening", size: "20ft", condition: "New", priceMin: 9000, priceMax: 10000, visible: true },
+  { id: "40ft-side-4d", name: "40ft 4-Door Side Opening", size: "40ft", condition: "New", priceMin: 12200, priceMax: 13200, visible: true },
+  { id: "20ft-dg", name: "20ft Dangerous Goods", size: "20ft", condition: "New", priceMin: 19250, priceMax: 21500, visible: true },
 ];
 
 const initFreight: FreightZone[] = [
@@ -174,6 +174,7 @@ export default function AdminPage() {
                   <th className="px-4 py-3 text-gray-400 font-medium text-xs">Condition</th>
                   <th className="px-4 py-3 text-gray-400 font-medium text-xs">Price From ($)</th>
                   <th className="px-4 py-3 text-gray-400 font-medium text-xs">Price To ($)</th>
+                  <th className="px-4 py-3 text-gray-400 font-medium text-xs">Show on Site</th>
                 </tr></thead>
                 <tbody>{prices.map((p,i)=>(
                   <tr key={p.id} className="border-t border-gray-50">
@@ -182,6 +183,7 @@ export default function AdminPage() {
                     <td className="px-4 py-3 text-gray-600">{p.condition}</td>
                     <td className="px-4 py-2"><input type="number" value={p.priceMin} onChange={e=>setPrices(prev=>{const n=[...prev];n[i]={...n[i],priceMin:+e.target.value};return n;})} className="w-24 px-3 py-2 border border-gray-200 rounded-lg text-sm outline-none focus:border-[var(--color-umove-red)]" /></td>
                     <td className="px-4 py-2"><input type="number" value={p.priceMax} onChange={e=>setPrices(prev=>{const n=[...prev];n[i]={...n[i],priceMax:+e.target.value};return n;})} className="w-24 px-3 py-2 border border-gray-200 rounded-lg text-sm outline-none focus:border-[var(--color-umove-red)]" /></td>
+                    <td className="px-4 py-2 text-center"><button onClick={()=>setPrices(prev=>{const n=[...prev];n[i]={...n[i],visible:!n[i].visible};return n;})} className={`relative w-12 h-6 rounded-full transition-colors ${p.visible?"bg-green-500":"bg-gray-300"}`}><span className={`absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform ${p.visible?"translate-x-6":""}`}/></button></td>
                   </tr>
                 ))}</tbody>
               </table>
