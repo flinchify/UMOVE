@@ -9,7 +9,6 @@ const services = [
   "Container Hire",
   "Custom Modification",
   "Mining & Industrial",
-  "Removals",
   "Other",
 ];
 

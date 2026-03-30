@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const services = ["Self Storage", "Container Sales (New)", "Container Sales (Used)", "Container Hire", "Custom Modification", "Mining & Industrial", "Removals", "Other"];
+const services = ["Self Storage", "Container Sales (New)", "Container Sales (Used)", "Container Hire", "Custom Modification", "Mining & Industrial", "Other"];
 
 export default function QuoteModal() {
   const [open, setOpen] = useState(false);

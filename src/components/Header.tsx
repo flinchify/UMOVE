@@ -23,7 +23,6 @@ const navItems = [
       { label: "All Containers for Hire", href: "/container-hire" },
       { label: "Short-Term Storage", href: "/short-term-storage" },
       { label: "Long-Term Storage", href: "/long-term-storage" },
-      { label: "Removals", href: "/removals" },
     ],
   },
   { label: "Modifications", href: "/modifications" },

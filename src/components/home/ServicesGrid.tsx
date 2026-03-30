@@ -10,7 +10,6 @@ const services = [
   { title: "Container Hire", image: "/images/unnamed-6-1024x768.jpg", alt: "Container hire Perth", href: "/container-hire", desc: "Flexible terms, competitive rates, fast delivery." },
   { title: "Custom Modifications", image: "/images/Modified-Containers-Perth-Transported-Lube-Rooms--1024x689.jpg", alt: "Modified containers Perth", href: "/modifications", desc: "Offices, workshops, cafes, homes — built in Henderson." },
   { title: "Mining & Industrial", image: "/images/Mining_and_operations_cover_image-scaled-1-768x1024.jpg", alt: "Mining containers WA", href: "/mining-operations", desc: "Crib rooms, tool stores, hydration stations, DG containers." },
-  { title: "Removals", image: "/images/Craig-0816-018-1024x768.jpg", alt: "Container removals Perth", href: "/removals", desc: "We deliver, you pack, we move. Trusted for 25+ years." },
 ];
 
 export default function ServicesGrid() {

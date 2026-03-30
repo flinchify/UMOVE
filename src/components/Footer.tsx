@@ -35,8 +35,7 @@ export default function Footer() {
                 { label: "Container Hire", href: "/container-hire" },
                 { label: "Modifications", href: "/modifications" },
                 { label: "Mining & Industrial", href: "/mining-operations" },
-                { label: "Removals", href: "/removals" },
-              ].map(l => (
+                ].map(l => (
                 <li key={l.href}><Link href={l.href} className="text-gray-400 hover:text-[var(--color-umove-red)] transition-colors text-sm">{l.label}</Link></li>
               ))}
             </ul>

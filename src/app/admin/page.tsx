@@ -120,7 +120,7 @@ export default function AdminPage() {
             <div className="grid lg:grid-cols-2 gap-6">
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
                 <h3 className="font-bold text-gray-900 mb-4">Quotes by Service</h3>
-                {[{s:"Self Storage",c:15,p:32},{s:"Container Hire",c:11,p:23},{s:"Container Sales",c:8,p:17},{s:"Modifications",c:7,p:15},{s:"Mining",c:4,p:9},{s:"Removals",c:2,p:4}].map(i=>(
+                {[{s:"Self Storage",c:15,p:32},{s:"Container Hire",c:11,p:23},{s:"Container Sales",c:8,p:17},{s:"Modifications",c:7,p:15},{s:"Mining",c:4,p:9}].map(i=>(
                   <div key={i.s} className="mb-3"><div className="flex justify-between text-sm mb-1"><span>{i.s}</span><span className="text-gray-400">{i.c} ({i.p}%)</span></div><div className="h-2 bg-gray-100 rounded-full overflow-hidden"><div className="h-full bg-[var(--color-umove-red)] rounded-full" style={{width:`${i.p}%`}}/></div></div>
                 ))}
               </div>

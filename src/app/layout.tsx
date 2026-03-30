@@ -66,7 +66,7 @@ const jsonLd = {
       geo: { "@type": "GeoCoordinates", latitude: -32.1471, longitude: 115.7744 },
       openingHoursSpecification: { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], opens: "08:00", closes: "16:00" },
       priceRange: "$$",
-      description: "Perth's trusted shipping container company. Hire, sales, modifications, self-storage, removals and mining solutions across WA. 25+ years experience.",
+      description: "Perth's trusted shipping container company. Hire, sales, modifications, self-storage and mining solutions across WA. 25+ years experience.",
     },
     { "@type": "WebSite", "@id": "https://u-move.com.au/#website", url: "https://u-move.com.au", name: "U-Move Australia", publisher: { "@id": "https://u-move.com.au/#organization" } },
   ],
