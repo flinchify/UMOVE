@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
+import { getPricingVisibility, setPricingVisibility } from "@/lib/pricing-store";
 
 const ADMIN_PASSWORD = "umove-admin-2026";
 
@@ -41,6 +42,21 @@ export default function AdminPage() {
   const [quotes, setQuotes] = useState(initQuotes);
   const [prices, setPrices] = useState(initPrices);
   const [freight, setFreight] = useState(initFreight);
+
+  // Load visibility from localStorage on mount
+  useEffect(() => {
+    const vis = getPricingVisibility();
+    if (Object.keys(vis).length > 0) {
+      setPrices(prev => prev.map(p => ({ ...p, visible: vis[p.id] !== false })));
+    }
+  }, []);
+
+  // Save visibility to localStorage whenever prices change
+  useEffect(() => {
+    const vis: Record<string, boolean> = {};
+    prices.forEach(p => { vis[p.id] = p.visible; });
+    setPricingVisibility(vis);
+  }, [prices]);
 
   if (!authed) return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
