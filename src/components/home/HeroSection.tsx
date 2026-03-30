@@ -49,7 +49,7 @@ export default function HeroSection() {
               <span className="text-[var(--color-umove-red)]">right here</span>
             </h1>
             <p ref={subRef} className="mt-6 text-gray-400 text-lg max-w-lg leading-relaxed">
-              Buy, hire, store, or modify — choose U-Move Australia to match you with the right container at the right price. Stock ready for delivery across WA.
+              <strong className="text-white">U-Move Australia is Perth&apos;s trusted shipping container company since 2000.</strong> Buy from $2,100, hire from $5/day, or get custom modifications — all with delivery across WA from our Henderson depot. Call (08) 9459 8888.
             </p>
             <div ref={ctaRef} className="mt-8 flex flex-col sm:flex-row gap-4">
               <button

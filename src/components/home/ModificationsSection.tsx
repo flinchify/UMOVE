@@ -48,7 +48,7 @@ export default function ModificationsSection() {
         <div className="mt-12 py-4 border-y border-gray-200 overflow-hidden">
           <div className="animate-marquee-slow flex whitespace-nowrap">
             {[...Array(2)].map((_, i) => (
-              <div key={i} className="flex items-center gap-8 px-4">
+              <div key={i} className="flex items-center gap-8 px-4" aria-hidden={i > 0 ? "true" : undefined}>
                 {["Workshops", "Offices", "Hospitality", "Switchrooms", "Ablution Blocks", "Lunch Rooms", "First Aid", "Custom Builds", "Container Living", "Tool Stores", "Hydration Stations", "Dangerous Goods"].map(t => (
                   <span key={`${i}-${t}`} className="text-[var(--color-umove-navy)] font-bold text-sm uppercase tracking-wider flex items-center gap-8">
                     {t}

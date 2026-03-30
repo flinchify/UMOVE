@@ -18,7 +18,7 @@ export default function HireSection() {
               On a Budget? Hire a Container in Perth
             </h2>
             <p className="mt-4 text-gray-400 leading-relaxed">
-              Hiring a shipping container can be a cheap short-term storage solution. Flexible terms, no large upfront cost, and we handle maintenance. Available in all sizes with fast delivery.
+              <strong className="text-white">Hire a shipping container in Perth from $5/day with no lock-in contracts.</strong> Available in 10ft, 20ft, 40ft, and high cube sizes with delivery across Perth and all of WA. Flexible terms, no large upfront cost, and we handle all maintenance.
             </p>
             <ul className="mt-6 space-y-3">
               {["Reduced rates the longer you keep it", "10ft, 20ft, 40ft & high cube available", "Competitive rates from just $5/day", "Short or long-term — no lock-in contracts", "Delivered to your door across Perth & WA"].map(item => (

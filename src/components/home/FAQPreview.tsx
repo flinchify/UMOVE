@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+
 import AnimatedSection from "@/components/AnimatedSection";
 import Link from "next/link";
 
@@ -59,29 +59,22 @@ export default function FAQPreview() {
                   className="w-full flex items-center justify-between p-5 text-left hover:bg-gray-50 transition-colors"
                 >
                   <h3 className="font-semibold text-gray-900 pr-4">{faq.q}</h3>
-                  <motion.svg
-                    animate={{ rotate: open === i ? 180 : 0 }}
-                    transition={{ duration: 0.3 }}
-                    className="w-5 h-5 text-gray-400 flex-shrink-0"
+                  <svg
+                    className={`w-5 h-5 text-gray-400 flex-shrink-0 transition-transform duration-300 ${open === i ? "rotate-180" : ""}`}
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </motion.svg>
+                  </svg>
                 </button>
-                <AnimatePresence>
-                  {open === i && (
-                    <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3 }}
-                    >
-                      <div className="px-5 pb-5 text-gray-600 leading-relaxed">{faq.a}</div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
+                {/* Answer always in DOM for crawlers — CSS hides visually, HTML remains for extraction */}
+                <div
+                  className={`overflow-hidden transition-all duration-300 ${open === i ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"}`}
+                  aria-hidden={open !== i}
+                >
+                  <div className="px-5 pb-5 text-gray-600 leading-relaxed">{faq.a}</div>
+                </div>
               </div>
             </AnimatedSection>
           ))}
