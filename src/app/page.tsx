@@ -3,6 +3,8 @@ import Hero from "@/components/home/HeroSection";
 import ServicesGrid from "@/components/home/ServicesGrid";
 import ProjectsGallery from "@/components/home/ProjectsGallery";
 import MarqueeStrip from "@/components/home/MarqueeStrip";
+import DeliveryBanner from "@/components/home/DeliveryBanner";
+import TrustStrip from "@/components/home/TrustStrip";
 import SalesSection from "@/components/home/SalesSection";
 import HireSection from "@/components/home/HireSection";
 import ModificationsSection from "@/components/home/ModificationsSection";
@@ -39,7 +41,9 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Hero />
       <MarqueeStrip />
+      <TrustStrip />
       <ServicesGrid />
+      <DeliveryBanner />
       <StatsSection />
       <SalesSection />
       <ProjectsGallery />

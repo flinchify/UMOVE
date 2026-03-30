@@ -115,7 +115,7 @@ export default function Header() {
                 >
                   {item.label}
                   {item.children && (
-                    <svg className="w-3 h-3 opacity-40" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                    <span className="text-[var(--color-umove-red)] font-bold text-xs ml-0.5">+</span>
                   )}
                 </Link>
                 <AnimatePresence>
