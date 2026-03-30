@@ -43,7 +43,8 @@ export default function PricingPreview() {
           <h2 className="font-display text-3xl md:text-5xl text-[var(--color-umove-navy)] uppercase tracking-tight">
             Container Pricing
           </h2>
-          <p className="mt-2 text-gray-500">Prices exclude GST & delivery. For current pricing, contact us.</p>
+          <p className="mt-2 text-gray-500">All prices in AUD, exclude GST and delivery. Updated March 2026. Perth metro delivery: $250–$450.</p>
+          <p className="mt-1 text-gray-400 text-xs">Container hire also available from $5/day (20ft) and $8/day (40ft). Call (08) 9459 8888 for exact pricing.</p>
         </AnimatedSection>
 
         <div className={`grid gap-6 ${containers.length === 3 ? "md:grid-cols-3" : containers.length === 2 ? "md:grid-cols-2 max-w-3xl mx-auto" : "max-w-md mx-auto"}`}>

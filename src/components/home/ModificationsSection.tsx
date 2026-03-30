@@ -5,9 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const mods = [
-  { title: "Workshops", image: "/images/Work-Shop-1024x768.jpg", alt: "Container workshop" },
-  { title: "Ablution Blocks", image: "/images/20ft-Aublution-0011-1024x768.jpg", alt: "Container ablution" },
-  { title: "Crib Rooms", image: "/images/Crib-room-scaled-1-768x1024.jpeg", alt: "Container crib room" },
+  { title: "Workshops", image: "/images/Work-Shop-1024x768.jpg", alt: "Container workshop modification by U-Move Henderson WA", desc: "Fully fitted 20ft and 40ft container workshops with power, lighting, workbenches, tool storage, ventilation, and roller doors. Built for trades, mechanics, and site operations." },
+  { title: "Ablution Blocks", image: "/images/20ft-Aublution-0011-1024x768.jpg", alt: "Container ablution block modification by U-Move Henderson WA", desc: "Self-contained ablution blocks with showers, toilets, hot water systems, and plumbing. Compliant with WorkSafe WA requirements for remote and mining sites." },
+  { title: "Crib Rooms", image: "/images/Crib-room-scaled-1-768x1024.jpeg", alt: "Container crib room modification by U-Move Henderson WA", desc: "Insulated crib rooms with air conditioning, kitchenette, seating for up to 10 people, and food-grade finishes. Designed for WA mining and construction sites." },
 ];
 
 export default function ModificationsSection() {
@@ -36,6 +36,7 @@ export default function ModificationsSection() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-umove-navy)] to-transparent opacity-60" />
                 <div className="absolute bottom-6 left-6 right-6">
                   <h3 className="text-white font-bold text-2xl uppercase">{m.title}</h3>
+                  <p className="text-white/80 text-sm mt-2 leading-relaxed line-clamp-2 group-hover:line-clamp-none transition-all">{m.desc}</p>
                   <div className="mt-2 h-0.5 w-0 group-hover:w-16 bg-[var(--color-umove-red)] transition-all duration-500" />
                 </div>
               </div>

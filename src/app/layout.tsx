@@ -23,10 +23,10 @@ const anton = Anton({
 export const metadata: Metadata = {
   metadataBase: new URL("https://u-move.com.au"),
   title: {
-    default: "U-Move Australia | Shipping Container Hire, Sales, Storage & Modifications Perth",
+    default: "U-Move Australia | Containers Perth — Hire, Sales & Mods",
     template: "%s | U-Move Australia",
   },
-  description: "Perth's trusted shipping container company with 25+ years experience. Container hire, sales, custom modifications, self-storage & mining solutions. Henderson WA. Call (08) 9459 8888.",
+  description: "Perth's trusted shipping container company since 2000. Buy from $2,100, hire from $5/day, custom modifications, self-storage & mining solutions across WA. Henderson WA. (08) 9459 8888.",
   keywords: ["shipping containers Perth", "container hire Perth", "container sales Perth", "self storage Perth", "container modifications Perth", "shipping container Henderson WA", "mining containers Perth", "sea containers for sale Perth"],
   authors: [{ name: "U-Move Australia" }],
   robots: { index: true, follow: true },

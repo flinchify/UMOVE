@@ -8,27 +8,27 @@ import Link from "next/link";
 const faqs = [
   {
     q: "How does U-Move's self-storage service work?",
-    a: "We deliver a secure shipping container directly to your home or business. You pack it at your own pace — take a day or a week. When you're ready, we either leave it on your property or collect it and store it at our 24/7 monitored Henderson facility. It's up to 50% cheaper than traditional self-storage units in Perth.",
+    a: "U-Move delivers a shipping container to your door, you pack it, and we store it at our secure Henderson facility — up to 50% cheaper than traditional self-storage in Perth. You can pack at your own pace over days or weeks. When ready, we either leave the container on your property for on-site storage, or collect it and store it at our 24/7 monitored, CCTV-secured Henderson yard at 836 Cockburn Road. Access your container by appointment during business hours.",
   },
   {
     q: "What container sizes does U-Move stock in 2026?",
-    a: "As of March 2026, we stock 10ft, 20ft, and 40ft shipping containers in standard, high cube, side-opening, refrigerated, insulated, flat-rack, open-top, and dangerous goods configurations. All containers are wind, water, and vermin-proof with heavy-duty lockboxes. Our 20ft standard is the most popular choice for households and small businesses.",
+    a: "U-Move stocks 10ft, 20ft, and 40ft shipping containers in eight configurations as of March 2026. Available types include standard, high cube, side-opening, refrigerated, insulated, flat-rack, open-top, and AS1940-compliant dangerous goods containers. All containers are wind-proof, water-proof, and vermin-proof with heavy-duty lockboxes fitted as standard. The 20ft standard container is our most popular choice for Perth households and small businesses.",
   },
   {
     q: "Can you modify a container before delivery?",
-    a: "Yes. Our in-house Henderson workshop handles all modifications — power, lighting, windows, shelving, insulation, air conditioning, plumbing, and more. We build site offices, workshops, ablution blocks, crib rooms, hydration stations, cafes, and container homes. All work is done by our own team with over 20 years of modification experience.",
+    a: "Yes — U-Move's in-house workshop at Henderson WA handles all container modifications before delivery. We fit power, lighting, windows, doors, shelving, insulation, air conditioning, and plumbing. Popular builds include site offices, workshops, ablution blocks, crib rooms, hydration stations, cafes, and container homes. Our modification team has over 20 years of experience and all work is completed on-site in Henderson before the container is delivered to you.",
   },
   {
     q: "How much does it cost to hire or buy a container in Perth?",
-    a: "In March 2026, used 20ft containers start from approximately $2,100 + GST, and new 20ft containers from $3,200 + GST. Container hire starts from around $5 per day. 40ft containers range from $3,100 (used) to $6,700 (new). Delivery within Perth metro costs $250–$450. All prices exclude GST. Contact us at (08) 9459 8888 for an exact quote.",
+    a: "In March 2026: used 20ft containers from $2,100 + GST, new 20ft from $3,200 + GST, and container hire from $5/day. Full pricing: 40ft used from $3,100 + GST, 40ft new from $6,200 + GST, 40ft high cube new from $6,700 + GST. Hire rates: 20ft from $5/day, 40ft from $8/day. Perth metro delivery costs $250–$450 depending on location. All prices exclude GST. Call (08) 9459 8888 for an exact quote tailored to your requirements.",
   },
   {
     q: "Does U-Move deliver across all of Western Australia?",
-    a: "Yes. We deliver to all Perth metropolitan suburbs (Henderson, Fremantle, Rockingham, Joondalup, Midland, Armadale, Mandurah) plus regional WA including Bunbury, Kalgoorlie, Geraldton, Karratha, Port Hedland, and Broome. Perth metro delivery typically takes 2–3 business days. Regional deliveries take 5–14 days depending on distance.",
+    a: "Yes — U-Move delivers shipping containers to every suburb in Perth and across all of regional Western Australia. Perth metro suburbs covered include Henderson, Fremantle, Rockingham, Joondalup, Midland, Armadale, and Mandurah, with delivery in 2–3 business days. Regional WA coverage includes Bunbury, Kalgoorlie, Geraldton, Karratha, Port Hedland, and Broome, with delivery in 5–14 business days depending on distance from Henderson.",
   },
   {
     q: "What mining and industrial container solutions does U-Move offer?",
-    a: "We supply purpose-built containers for WA mining and industrial operations: rigging storage containers with heavy-duty racks, insulated crib rooms with AC and kitchenette (seating for up to 10), hydration stations for heat stress management, 40ft tool stores with shelving and check-in counters, and AS1940-compliant dangerous goods containers for fuels and chemicals.",
+    a: "U-Move supplies five purpose-built container types for WA mining and industrial operations. These include: (1) rigging storage containers with heavy-duty racking systems, (2) insulated crib rooms with air conditioning and kitchenette seating up to 10 workers, (3) hydration stations designed for heat stress management on remote sites, (4) 40ft tool stores with shelving and check-in counters, and (5) AS1940-compliant dangerous goods containers for storing fuels and chemicals. All mining containers are built to withstand WA conditions and can be modified to meet specific site requirements.",
   },
 ];
 

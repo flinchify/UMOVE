@@ -12,6 +12,9 @@ export default function StatsSection() {
           <StatCounter end={100} suffix="%" label="WA Coverage" />
           <StatCounter end={24} suffix="/7" label="Secure Facility" />
         </div>
+        <p className="text-center text-white/30 text-[10px] mt-6 uppercase tracking-wider">
+          Based on U-Move Australia internal records, 2000–2026. Henderson WA facility operational data.
+        </p>
       </div>
     </section>
   );
