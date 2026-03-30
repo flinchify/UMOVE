@@ -14,6 +14,9 @@ import FAQPreview from "@/components/home/FAQPreview";
 import LocationMarquee from "@/components/home/LocationMarquee";
 import CTASection from "@/components/home/CTASection";
 import StatsSection from "@/components/home/StatsSection";
+import FreshnessBar from "@/components/home/FreshnessBar";
+import ComparisonSection from "@/components/home/ComparisonSection";
+import AuthoritySection from "@/components/home/AuthoritySection";
 
 export const metadata: Metadata = {
   title: "Shipping Containers Perth | Hire, Sales & Modifications | U-Move",
@@ -54,6 +57,7 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
       <Hero />
       <MarqueeStrip />
+      <FreshnessBar />
       <TrustStrip />
       <ServicesGrid />
       <DeliveryBanner />
@@ -64,6 +68,8 @@ export default function HomePage() {
       <ModificationsSection />
       <PricingPreview />
       <TestimonialsSection />
+      <ComparisonSection />
+      <AuthoritySection />
       <FAQPreview />
       <LocationMarquee />
       <CTASection />
