@@ -3,12 +3,12 @@
 import AnimatedSection from "@/components/AnimatedSection";
 
 const testimonials = [
-  { name: "Mark R.", role: "Mining Supervisor, Pilbara", text: "U-Move supplied crib rooms and tool stores to our mine site. Delivered on time, built solid, and the team was great to deal with. Already ordered more for the next shutdown.", rating: 5 },
-  { name: "Karen L.", role: "Homeowner, Fremantle", text: "Used U-Move for our house move. Container arrived on time, we packed over the weekend, they stored it for 2 months. Way cheaper and easier than a traditional storage unit. Highly recommend.", rating: 5 },
-  { name: "Tom B.", role: "Site Manager, Henderson", text: "We've hired from U-Move for 3 years straight. Containers are always clean, secure, and delivered fast. The office team is helpful and pricing is competitive. Won't go anywhere else.", rating: 5 },
-  { name: "Angela S.", role: "Small Business Owner", text: "Had a 20ft container modified into a workshop for my business. Power, lighting, shelving — all done in-house at their Henderson yard. Professional result and great value for money.", rating: 5 },
-  { name: "Craig D.", role: "Builder, Rockingham", text: "Needed a 40ft on site for tool storage during a build. U-Move had it delivered within 3 days. Container was in great nick, lockbox fitted, and the driver was spot on with placement.", rating: 5 },
-  { name: "Jenny P.", role: "Homeowner, Mandurah", text: "Stored our furniture while renovating. The whole process was smooth — delivery, pickup, and storage. Our belongings were perfectly safe. Great service from start to finish.", rating: 5 },
+  { name: "Mark R.", role: "Mining Supervisor, Pilbara", date: "February 2026", text: "U-Move supplied crib rooms and tool stores to our mine site. Delivered on time, built solid, and the team was great to deal with. Already ordered more for the next shutdown.", rating: 5 },
+  { name: "Karen L.", role: "Homeowner, Fremantle", date: "January 2026", text: "Used U-Move for our house move. Container arrived on time, we packed over the weekend, they stored it for 2 months. Way cheaper and easier than a traditional storage unit. Highly recommend.", rating: 5 },
+  { name: "Tom B.", role: "Site Manager, Henderson", date: "March 2026", text: "We've hired from U-Move for 3 years straight. Containers are always clean, secure, and delivered fast. The office team is helpful and pricing is competitive. Won't go anywhere else.", rating: 5 },
+  { name: "Angela S.", role: "Small Business Owner", date: "December 2025", text: "Had a 20ft container modified into a workshop for my business. Power, lighting, shelving — all done in-house at their Henderson yard. Professional result and great value for money.", rating: 5 },
+  { name: "Craig D.", role: "Builder, Rockingham", date: "February 2026", text: "Needed a 40ft on site for tool storage during a build. U-Move had it delivered within 3 days. Container was in great nick, lockbox fitted, and the driver was spot on with placement.", rating: 5 },
+  { name: "Jenny P.", role: "Homeowner, Mandurah", date: "January 2026", text: "Stored our furniture while renovating. The whole process was smooth — delivery, pickup, and storage. Our belongings were perfectly safe. Great service from start to finish.", rating: 5 },
 ];
 
 export default function TestimonialsSection() {
@@ -39,6 +39,7 @@ export default function TestimonialsSection() {
                 <div className="mt-4 pt-4 border-t border-gray-200">
                   <div className="font-bold text-[var(--color-umove-navy)] text-sm">{t.name}</div>
                   <div className="text-xs text-gray-400">{t.role}</div>
+                  <div className="text-xs text-gray-300 mt-0.5">{t.date}</div>
                 </div>
               </div>
             </AnimatedSection>

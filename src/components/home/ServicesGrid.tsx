@@ -26,7 +26,7 @@ export default function ServicesGrid() {
             Shipping Container Solutions in Perth & WA
           </h2>
           <p className="mt-4 text-lg text-gray-500 leading-relaxed">
-            Six core services backed by 25+ years of experience. Affordable, flexible, and convenient solutions for every need.
+            Five core services backed by 25+ years of experience. Affordable, flexible, and convenient solutions for every need across Perth and Western Australia in 2026.
           </p>
         </AnimatedSection>
 

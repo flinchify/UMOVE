@@ -8,27 +8,27 @@ import Link from "next/link";
 const faqs = [
   {
     q: "How does U-Move's self-storage service work?",
-    a: "We deliver a shipping container to your location, you load it at your own pace, and we either leave it on-site or pick it up and store it at our 24/7 secure Henderson facility. It's up to 50% cheaper than traditional self-storage.",
+    a: "We deliver a secure shipping container directly to your home or business. You pack it at your own pace — take a day or a week. When you're ready, we either leave it on your property or collect it and store it at our 24/7 monitored Henderson facility. It's up to 50% cheaper than traditional self-storage units in Perth.",
   },
   {
-    q: "What sizes of shipping containers does U-Move stock?",
-    a: "We stock 8ft, 10ft, 20ft, and 40ft containers in standard, high cube, pallet-wide, refrigerated, insulated, side-opening, open-top, flat-rack, and dangerous goods configurations. All containers are wind, water, and vermin-proof.",
+    q: "What container sizes does U-Move stock in 2026?",
+    a: "As of March 2026, we stock 10ft, 20ft, and 40ft shipping containers in standard, high cube, side-opening, refrigerated, insulated, flat-rack, open-top, and dangerous goods configurations. All containers are wind, water, and vermin-proof with heavy-duty lockboxes. Our 20ft standard is the most popular choice for households and small businesses.",
   },
   {
-    q: "Can U-Move modify a container before delivery?",
-    a: "Yes. Our in-house Henderson workshop can install power, lighting, windows, shelving, insulation, air conditioning, and more. We build site offices, workshops, ablution blocks, crib rooms, cafes, and container homes to your exact specifications.",
+    q: "Can you modify a container before delivery?",
+    a: "Yes. Our in-house Henderson workshop handles all modifications — power, lighting, windows, shelving, insulation, air conditioning, plumbing, and more. We build site offices, workshops, ablution blocks, crib rooms, hydration stations, cafes, and container homes. All work is done by our own team with over 20 years of modification experience.",
   },
   {
     q: "How much does it cost to hire or buy a container in Perth?",
-    a: "Pricing depends on container type, size, condition, and hire duration. We offer competitive rates across Perth and WA. Contact us at (08) 9459 8888 or sales@u-move.com.au for a tailored quote within 1 business day.",
+    a: "In March 2026, used 20ft containers start from approximately $2,100 + GST, and new 20ft containers from $3,200 + GST. Container hire starts from around $5 per day. 40ft containers range from $3,100 (used) to $6,700 (new). Delivery within Perth metro costs $250–$450. All prices exclude GST. Contact us at (08) 9459 8888 for an exact quote.",
   },
   {
-    q: "Does U-Move deliver containers across Western Australia?",
-    a: "Yes. We deliver to Perth metro, regional WA, and remote mining sites. Our fleet handles transport for residential, commercial, and industrial deliveries with competitive rates and fast turnaround.",
+    q: "Does U-Move deliver across all of Western Australia?",
+    a: "Yes. We deliver to all Perth metropolitan suburbs (Henderson, Fremantle, Rockingham, Joondalup, Midland, Armadale, Mandurah) plus regional WA including Bunbury, Kalgoorlie, Geraldton, Karratha, Port Hedland, and Broome. Perth metro delivery typically takes 2–3 business days. Regional deliveries take 5–14 days depending on distance.",
   },
   {
-    q: "What mining container solutions does U-Move offer?",
-    a: "We supply purpose-built containers for mining and industrial operations including rigging storage, crib rooms with AC and kitchenette (up to 10 people), hydration stations, tool stores, dangerous goods containers, and custom site offices.",
+    q: "What mining and industrial container solutions does U-Move offer?",
+    a: "We supply purpose-built containers for WA mining and industrial operations: rigging storage containers with heavy-duty racks, insulated crib rooms with AC and kitchenette (seating for up to 10), hydration stations for heat stress management, 40ft tool stores with shelving and check-in counters, and AS1940-compliant dangerous goods containers for fuels and chemicals.",
   },
 ];
 
@@ -39,12 +39,15 @@ export default function FAQPreview() {
     <section className="py-20 md:py-28 bg-white">
       <div className="max-w-4xl mx-auto px-6">
         <AnimatedSection className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <div className="h-[2px] w-12 bg-[var(--color-umove-red)]" />
+            <span className="text-[var(--color-umove-red)] font-bold text-xs uppercase tracking-[0.3em]">FAQ</span>
+            <div className="h-[2px] w-12 bg-[var(--color-umove-red)]" />
+          </div>
+          <h2 className="font-display text-3xl md:text-5xl text-[var(--color-umove-navy)] uppercase tracking-tight">
             Frequently Asked Questions
           </h2>
-          <p className="mt-4 text-lg text-gray-600">
-            Quick answers to the most common questions about our container services.
-          </p>
+          <p className="mt-4 text-gray-500">Last updated: March 2026</p>
         </AnimatedSection>
 
         <div className="space-y-3">
@@ -85,10 +88,7 @@ export default function FAQPreview() {
         </div>
 
         <div className="mt-8 text-center">
-          <Link
-            href="/faq"
-            className="text-[var(--color-umove-red)] hover:text-[var(--color-umove-red-light)] font-semibold inline-flex items-center gap-2 transition-colors"
-          >
+          <Link href="/faq" className="text-[var(--color-umove-red)] font-bold text-sm uppercase tracking-wider inline-flex items-center gap-2 hover:gap-3 transition-all">
             View all FAQs
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
@@ -97,4 +97,3 @@ export default function FAQPreview() {
     </section>
   );
 }
-

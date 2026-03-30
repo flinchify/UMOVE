@@ -86,7 +86,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-gray-500">
-          <p>&copy; {new Date().getFullYear()} U-Move Australia. All rights reserved. *All pricing excludes GST & delivery.</p>
+          <p>&copy; {new Date().getFullYear()} U-Move Australia. All rights reserved. *All pricing excludes GST & delivery. Last updated March 2026.</p>
           <p>For an instant price & support call <a href="tel:0894598888" className="text-[var(--color-umove-red)] font-bold">(08) 9459 8888</a></p>
         </div>
       </div>
