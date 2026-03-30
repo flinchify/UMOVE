@@ -3,6 +3,7 @@ import PageHero from "@/components/PageHero";
 import AnimatedSection from "@/components/AnimatedSection";
 import Image from "next/image";
 import Link from "next/link";
+import QuoteButton from "@/components/QuoteButton";
 
 export const metadata: Metadata = {
   title: "10ft Shipping Container Perth | Buy or Hire 10ft Containers",
@@ -32,7 +33,7 @@ export default function TenFtPage() {
               </div>
               <ul className="mt-6 space-y-2">{["Wind, water, and vermin-proof", "Heavy-duty lockbox fitted", "Forklift pockets for easy transport", "Available new and used", "Delivery across Perth & WA"].map(i => (<li key={i} className="flex items-center gap-2 text-sm text-gray-700"><div className="w-1.5 h-1.5 bg-[var(--color-umove-red)] rounded-full flex-shrink-0" />{i}</li>))}</ul>
               <div className="mt-8 flex gap-4">
-                <Link href="/contact" className="bg-[var(--color-umove-red)] text-white font-bold px-8 py-4 uppercase text-sm tracking-wider btn-fill hover:shadow-lg transition-shadow">Get Best Price</Link>
+                <QuoteButton className="px-8 py-4">Get Best Price</QuoteButton>
                 <Link href="/container-sizes" className="border-2 border-gray-200 text-gray-700 font-bold px-8 py-4 uppercase text-sm tracking-wider hover:border-[var(--color-umove-red)] hover:text-[var(--color-umove-red)] transition-all">Compare Sizes</Link>
               </div>
             </AnimatedSection>

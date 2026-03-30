@@ -3,6 +3,7 @@ import PageHero from "@/components/PageHero";
 import AnimatedSection from "@/components/AnimatedSection";
 import Image from "next/image";
 import Link from "next/link";
+import QuoteButton from "@/components/QuoteButton";
 
 export const metadata: Metadata = {
   title: "Container Removals Perth | Moving Made Easy with Shipping Containers",
@@ -89,7 +90,7 @@ export default function RemovalsPage() {
           <h2 className="text-3xl md:text-4xl font-bold text-white">Ready to move?</h2>
           <p className="mt-4 text-white/80 text-lg">Get a free removals quote. We deliver across Perth and WA.</p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact" className="inline-flex items-center justify-center bg-white text-[var(--color-umove-red)] font-bold px-8 py-4 rounded-none hover:bg-gray-100 transition-all">Get a Free Quote</Link>
+            <QuoteButton variant="white" className="px-8 py-4">Get a Free Quote</QuoteButton>
             <a href="tel:0894598888" className="inline-flex items-center justify-center border-2 border-white/30 text-white font-semibold px-8 py-4 rounded-none hover:bg-white/10 transition-all">(08) 9459 8888</a>
           </div>
         </div>

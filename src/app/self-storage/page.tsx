@@ -3,6 +3,7 @@ import PageHero from "@/components/PageHero";
 import AnimatedSection from "@/components/AnimatedSection";
 import Image from "next/image";
 import Link from "next/link";
+import QuoteButton from "@/components/QuoteButton";
 
 export const metadata: Metadata = {
   title: "Self Storage Perth | Affordable Container Storage Delivered to Your Door",

@@ -4,6 +4,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 import Image from "next/image";
 import StatCounter from "@/components/StatCounter";
 import Link from "next/link";
+import QuoteButton from "@/components/QuoteButton";
 
 export const metadata: Metadata = {
   title: "About U-Move Australia | 25+ Years in Perth Shipping Containers",

@@ -3,6 +3,7 @@ import PageHero from "@/components/PageHero";
 import AnimatedSection from "@/components/AnimatedSection";
 import Image from "next/image";
 import Link from "next/link";
+import QuoteButton from "@/components/QuoteButton";
 
 export const metadata: Metadata = {
   title: "Container Sizes | 10ft, 20ft & 40ft Shipping Containers Perth",
@@ -95,7 +96,7 @@ export default function ContainerSizesPage() {
           <h2 className="text-3xl md:text-4xl font-bold text-white">Not sure which size you need?</h2>
           <p className="mt-4 text-white/80 text-lg">Tell us what you&apos;re storing and we&apos;ll recommend the right container.</p>
           <div className="mt-8">
-            <Link href="/contact" className="inline-flex items-center justify-center bg-white text-[var(--color-umove-red)] font-bold px-8 py-4 rounded-none hover:bg-gray-100 transition-all">Get a Free Quote</Link>
+            <QuoteButton variant="white" className="px-8 py-4">Get a Free Quote</QuoteButton>
           </div>
         </div>
       </section>

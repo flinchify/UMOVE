@@ -3,6 +3,7 @@ import PageHero from "@/components/PageHero";
 import AnimatedSection from "@/components/AnimatedSection";
 import Image from "next/image";
 import Link from "next/link";
+import QuoteButton from "@/components/QuoteButton";
 
 export const metadata: Metadata = {
   title: "20ft Shipping Container Perth | Most Popular Size | Buy or Hire",
@@ -34,7 +35,7 @@ export default function TwentyFtPage() {
               <h3 className="mt-6 font-bold text-[var(--color-umove-navy)]">What fits in a 20ft container?</h3>
               <ul className="mt-2 space-y-2">{["Contents of a 2-3 bedroom house", "10 standard pallets", "1 standard car or 2 motorcycles", "1,200 archive boxes", "Workshop with workbench and tools"].map(i => (<li key={i} className="flex items-center gap-2 text-sm text-gray-700"><div className="w-1.5 h-1.5 bg-[var(--color-umove-red)] rounded-full flex-shrink-0" />{i}</li>))}</ul>
               <div className="mt-8 flex gap-4">
-                <Link href="/contact" className="bg-[var(--color-umove-red)] text-white font-bold px-8 py-4 uppercase text-sm tracking-wider btn-fill hover:shadow-lg transition-shadow">Get Best Price</Link>
+                <QuoteButton className="px-8 py-4">Get Best Price</QuoteButton>
                 <Link href="/container-sizes" className="border-2 border-gray-200 text-gray-700 font-bold px-8 py-4 uppercase text-sm tracking-wider hover:border-[var(--color-umove-red)] hover:text-[var(--color-umove-red)] transition-all">Compare Sizes</Link>
               </div>
             </AnimatedSection>

@@ -3,6 +3,7 @@
 import AnimatedSection from "@/components/AnimatedSection";
 import Image from "next/image";
 import Link from "next/link";
+import QuoteButton from "@/components/QuoteButton";
 
 const containers = [
   { name: "20ft Standard", image: "/images/20ft-Standard-Tall.jpg", newPrice: "From $3,200", usedPrice: "From $2,100", popular: false },
@@ -48,9 +49,7 @@ export default function PricingPreview() {
                       <span className="font-bold text-[var(--color-umove-navy)]">{c.usedPrice}</span>
                     </div>
                   </div>
-                  <Link href="/contact" className="mt-6 block text-center bg-[var(--color-umove-red)] text-white font-bold py-3 uppercase text-sm tracking-wider btn-fill hover:shadow-lg transition-shadow">
-                    Get Best Price
-                  </Link>
+                  <QuoteButton className="mt-6 w-full py-3">Get Best Price</QuoteButton>
                 </div>
               </div>
             </AnimatedSection>
