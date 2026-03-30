@@ -4,7 +4,7 @@ import StatCounter from "@/components/StatCounter";
 
 export default function StatsSection() {
   return (
-    <section className="py-16 bg-white border-b border-gray-100">
+    <section className="py-16 bg-[var(--color-umove-navy)] container-grid">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <StatCounter end={25} suffix="+" label="Years Experience" />
