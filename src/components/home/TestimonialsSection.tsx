@@ -3,10 +3,12 @@
 import AnimatedSection from "@/components/AnimatedSection";
 
 const testimonials = [
-  { name: "James T.", role: "Mining Operations Manager", text: "U-Move delivered 5 modified crib rooms to our Pilbara site in under 3 weeks. Quality build, on time, competitive pricing. Will use again for our next shutdown.", rating: 5 },
-  { name: "Sarah M.", role: "Homeowner, Fremantle", text: "Made our house move so much easier. They dropped off the container, we packed over the weekend, and they stored it for 2 months until our new place was ready. Half the price of Kennards.", rating: 5 },
-  { name: "David C.", role: "Construction Site Manager", text: "We've been hiring containers from U-Move for 3 years now. Always reliable, containers are in great condition, and the team is easy to work with. Highly recommend.", rating: 5 },
-  { name: "Lisa W.", role: "Business Owner, Welshpool", text: "Had them build a custom container office for our yard. Power, AC, network, the lot. Professional job and way cheaper than a donga. Really impressed with the finished product.", rating: 5 },
+  { name: "Mark R.", role: "Mining Supervisor, Pilbara", text: "U-Move supplied crib rooms and tool stores to our mine site. Delivered on time, built solid, and the team was great to deal with. Already ordered more for the next shutdown.", rating: 5 },
+  { name: "Karen L.", role: "Homeowner, Fremantle", text: "Used U-Move for our house move. Container arrived on time, we packed over the weekend, they stored it for 2 months. Way cheaper and easier than a traditional storage unit. Highly recommend.", rating: 5 },
+  { name: "Tom B.", role: "Site Manager, Henderson", text: "We've hired from U-Move for 3 years straight. Containers are always clean, secure, and delivered fast. The office team is helpful and pricing is competitive. Won't go anywhere else.", rating: 5 },
+  { name: "Angela S.", role: "Small Business Owner", text: "Had a 20ft container modified into a workshop for my business. Power, lighting, shelving — all done in-house at their Henderson yard. Professional result and great value for money.", rating: 5 },
+  { name: "Craig D.", role: "Builder, Rockingham", text: "Needed a 40ft on site for tool storage during a build. U-Move had it delivered within 3 days. Container was in great nick, lockbox fitted, and the driver was spot on with placement.", rating: 5 },
+  { name: "Jenny P.", role: "Homeowner, Mandurah", text: "Stored our furniture while renovating. The whole process was smooth — delivery, pickup, and storage. Our belongings were perfectly safe. Great service from start to finish.", rating: 5 },
 ];
 
 export default function TestimonialsSection() {

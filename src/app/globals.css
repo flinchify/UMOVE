@@ -18,8 +18,11 @@ html {
 }
 
 body {
-  font-family: var(--font-jakarta), var(--font-inter), system-ui, sans-serif;
+  font-family: var(--font-body), system-ui, sans-serif;
 }
+
+.font-body { font-family: var(--font-body), system-ui, sans-serif; }
+.font-display { font-family: var(--font-display), Impact, sans-serif; }
 
 /* Scrollbar */
 ::-webkit-scrollbar { width: 6px; }
