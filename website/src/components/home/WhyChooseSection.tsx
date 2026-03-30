@@ -67,7 +67,7 @@ export default function WhyChooseSection() {
                 />
               </div>
               <motion.div
-                className="absolute -bottom-6 -right-6 bg-[var(--color-umove-orange)] text-white p-6 rounded-2xl shadow-xl"
+                className="absolute -bottom-6 -right-6 bg-[var(--color-umove-red)] text-white p-6 rounded-2xl shadow-xl"
                 whileHover={{ scale: 1.05 }}
               >
                 <div className="text-3xl font-bold">25+</div>
@@ -91,7 +91,7 @@ export default function WhyChooseSection() {
               {features.map((feature, i) => (
                 <AnimatedSection key={feature.title} delay={i * 0.1} direction="up">
                   <div className="group">
-                    <div className="w-12 h-12 bg-[var(--color-umove-orange)]/10 rounded-xl flex items-center justify-center text-[var(--color-umove-orange)] group-hover:bg-[var(--color-umove-orange)] group-hover:text-white transition-all duration-300">
+                    <div className="w-12 h-12 bg-[var(--color-umove-red)]/10 rounded-xl flex items-center justify-center text-[var(--color-umove-red)] group-hover:bg-[var(--color-umove-red)] group-hover:text-white transition-all duration-300">
                       {feature.icon}
                     </div>
                     <h3 className="mt-3 font-semibold text-gray-900">{feature.title}</h3>
@@ -106,3 +106,4 @@ export default function WhyChooseSection() {
     </section>
   );
 }
+

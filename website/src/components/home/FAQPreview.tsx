@@ -50,7 +50,7 @@ export default function FAQPreview() {
         <div className="space-y-3">
           {faqs.map((faq, i) => (
             <AnimatedSection key={i} delay={i * 0.05}>
-              <div className="border border-gray-200 rounded-xl overflow-hidden hover:border-[var(--color-umove-orange)]/30 transition-colors">
+              <div className="border border-gray-200 rounded-xl overflow-hidden hover:border-[var(--color-umove-red)]/30 transition-colors">
                 <button
                   onClick={() => setOpen(open === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left hover:bg-gray-50 transition-colors"
@@ -87,7 +87,7 @@ export default function FAQPreview() {
         <div className="mt-8 text-center">
           <Link
             href="/faq"
-            className="text-[var(--color-umove-orange)] hover:text-[var(--color-umove-orange-light)] font-semibold inline-flex items-center gap-2 transition-colors"
+            className="text-[var(--color-umove-red)] hover:text-[var(--color-umove-red-light)] font-semibold inline-flex items-center gap-2 transition-colors"
           >
             View all FAQs
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -97,3 +97,4 @@ export default function FAQPreview() {
     </section>
   );
 }
+

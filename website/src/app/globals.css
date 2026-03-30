@@ -1,13 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  --color-umove-navy: #0a1628;
-  --color-umove-dark: #101d33;
-  --color-umove-blue: #1a3a5c;
-  --color-umove-orange: #e8741a;
-  --color-umove-orange-light: #f59e42;
+  --color-umove-navy: #16163f;
+  --color-umove-dark: #0d0d2b;
+  --color-umove-blue: #04175d;
+  --color-umove-red: #9c180b;
+  --color-umove-red-light: #c42015;
+  --color-umove-red-dark: #7a1208;
   --color-umove-gray: #f5f6f8;
   --color-umove-steel: #3a4a5e;
+  --color-umove-accent: #cc3366;
 }
 
 html {
@@ -48,16 +50,34 @@ body {
 }
 
 @keyframes pulseGlow {
-  0%, 100% { box-shadow: 0 0 20px rgba(232, 116, 26, 0.2); }
-  50% { box-shadow: 0 0 40px rgba(232, 116, 26, 0.5); }
+  0%, 100% { box-shadow: 0 0 20px rgba(156, 24, 11, 0.2); }
+  50% { box-shadow: 0 0 40px rgba(156, 24, 11, 0.5); }
 }
 
 /* Gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, var(--color-umove-orange), var(--color-umove-orange-light));
+  background: linear-gradient(135deg, var(--color-umove-red), var(--color-umove-red-light));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* Marquee for hero */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+/* Reveal clip */
+@keyframes clipReveal {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0 0 0 0); }
+}
+.animate-clip-reveal {
+  animation: clipReveal 1.2s cubic-bezier(0.65, 0, 0.35, 1) forwards;
 }
 
 /* Container grid pattern */

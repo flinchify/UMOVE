@@ -32,18 +32,18 @@ export default function ServiceCard({ title, description, href, image, imageAlt,
               className="object-cover group-hover:scale-110 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
-            <div className="absolute bottom-4 left-4 w-12 h-12 bg-[var(--color-umove-orange)] rounded-xl flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300">
+            <div className="absolute bottom-4 left-4 w-12 h-12 bg-[var(--color-umove-red)] rounded-xl flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300">
               {icon}
             </div>
           </div>
           <div className="p-6">
-            <h3 className="text-xl font-bold text-gray-900 group-hover:text-[var(--color-umove-orange)] transition-colors">
+            <h3 className="text-xl font-bold text-gray-900 group-hover:text-[var(--color-umove-red)] transition-colors">
               {title}
             </h3>
             <p className="mt-2 text-gray-600 text-sm leading-relaxed line-clamp-3">
               {description}
             </p>
-            <div className="mt-4 flex items-center gap-2 text-[var(--color-umove-orange)] font-semibold text-sm group-hover:gap-3 transition-all">
+            <div className="mt-4 flex items-center gap-2 text-[var(--color-umove-red)] font-semibold text-sm group-hover:gap-3 transition-all">
               Learn more
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </div>
@@ -53,3 +53,4 @@ export default function ServiceCard({ title, description, href, image, imageAlt,
     </motion.div>
   );
 }
+

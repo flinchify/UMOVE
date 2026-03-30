@@ -59,7 +59,7 @@ export default function ContainerSizesPreview() {
               onClick={() => setActive(i)}
               className={`px-6 py-3 rounded-full font-semibold text-sm transition-all duration-300 ${
                 active === i
-                  ? "bg-[var(--color-umove-orange)] text-white shadow-lg shadow-orange-500/30"
+                  ? "bg-[var(--color-umove-red)] text-white shadow-lg shadow-red-500/30"
                   : "bg-white/10 text-white/70 hover:bg-white/20"
               }`}
             >
@@ -105,7 +105,7 @@ export default function ContainerSizesPreview() {
               <div className="mt-8 flex gap-4">
                 <Link
                   href={containers[active].href}
-                  className="bg-[var(--color-umove-orange)] hover:bg-[var(--color-umove-orange-light)] text-white font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/30"
+                  className="bg-[var(--color-umove-red)] hover:bg-[var(--color-umove-red-light)] text-white font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-red-500/30"
                 >
                   View Details
                 </Link>
@@ -121,7 +121,7 @@ export default function ContainerSizesPreview() {
         </AnimatePresence>
 
         <div className="mt-12 text-center">
-          <Link href="/container-sizes" className="text-[var(--color-umove-orange)] hover:text-[var(--color-umove-orange-light)] font-semibold inline-flex items-center gap-2 transition-colors">
+          <Link href="/container-sizes" className="text-[var(--color-umove-red)] hover:text-[var(--color-umove-red-light)] font-semibold inline-flex items-center gap-2 transition-colors">
             View all container sizes & specifications
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
           </Link>
@@ -130,3 +130,4 @@ export default function ContainerSizesPreview() {
     </section>
   );
 }
+

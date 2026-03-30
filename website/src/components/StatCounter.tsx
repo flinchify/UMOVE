@@ -41,10 +41,11 @@ export default function StatCounter({ end, suffix = "", prefix = "", label, dura
       transition={{ duration: 0.5 }}
       className="text-center"
     >
-      <div className="text-4xl md:text-5xl font-bold text-[var(--color-umove-orange)]">
+      <div className="text-4xl md:text-5xl font-bold text-[var(--color-umove-red)]">
         {prefix}{count}{suffix}
       </div>
       <div className="text-sm text-gray-500 mt-2 font-medium uppercase tracking-wider">{label}</div>
     </motion.div>
   );
 }
+
