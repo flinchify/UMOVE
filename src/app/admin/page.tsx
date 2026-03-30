@@ -9,14 +9,7 @@ interface Quote { id: number; name: string; email: string; phone: string; compan
 interface ContainerPrice { id: string; name: string; size: string; condition: string; priceMin: number; priceMax: number; visible: boolean; }
 interface FreightZone { zone: string; min: number; max: number; days: string; }
 
-const initQuotes: Quote[] = [
-  { id: 1, name: "James Thompson", email: "james@thomsonmining.com.au", phone: "0412 345 678", company: "Thompson Mining", service: "Mining & Industrial", size: "40ft", location: "Karratha WA", message: "Need 3x 40ft crib rooms for mine site shutdown in May.", date: "2026-03-30", status: "new", verified: true },
-  { id: 2, name: "Sarah Mitchell", email: "sarah.m@gmail.com", phone: "0423 456 789", company: "", service: "Self Storage", size: "20ft", location: "Fremantle", message: "Moving house, need 3 months storage.", date: "2026-03-29", status: "contacted", verified: true },
-  { id: 3, name: "David Chen", email: "david@chencon.com.au", phone: "0434 567 890", company: "Chen Construction", service: "Container Hire", size: "20ft", location: "Henderson", message: "2x 20ft for construction site. 6 month hire.", date: "2026-03-28", status: "quoted", verified: true },
-  { id: 4, name: "Bot Spam", email: "test@spam.xyz", phone: "0000000000", company: "", service: "Container Sales", size: "10ft", location: "", message: "asdf", date: "2026-03-28", status: "new", verified: false },
-  { id: 5, name: "Lisa Wang", email: "lisa@wanglogistics.com.au", phone: "0445 678 901", company: "Wang Logistics", service: "Modification", size: "40ft", location: "Welshpool", message: "Container office with AC, power, network.", date: "2026-03-27", status: "won", verified: true },
-  { id: 6, name: "Craig Duncan", email: "craig.d@outlook.com", phone: "0456 789 012", company: "", service: "Container Sales", size: "20ft", location: "Rockingham", message: "Looking for a used 20ft for backyard storage. Budget around $2500.", date: "2026-03-26", status: "won", verified: true },
-];
+const initQuotes: Quote[] = [];
 
 const initPrices: ContainerPrice[] = [
   { id: "20ft-std-new", name: "20ft Standard", size: "20ft", condition: "New", priceMin: 3200, priceMax: 3600, visible: true },
@@ -39,7 +32,7 @@ const initFreight: FreightZone[] = [
 ];
 
 const statusColors: Record<string, string> = { new: "bg-blue-100 text-blue-700", contacted: "bg-yellow-100 text-yellow-700", quoted: "bg-purple-100 text-purple-700", won: "bg-green-100 text-green-700", lost: "bg-red-100 text-red-700" };
-const stats = { totalQuotes: 47, thisMonth: 12, conversionRate: 34.2, avgResponse: "4.2 hrs", revenue: "$28,400", topService: "Self Storage" };
+const stats = { totalQuotes: 0, thisMonth: 0, conversionRate: 0, avgResponse: "—", revenue: "$0", topService: "—" };
 
 export default function AdminPage() {
   const [authed, setAuthed] = useState(false);
