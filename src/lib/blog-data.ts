@@ -294,6 +294,319 @@ For most Perth residents, mobile container storage offers the best combination o
 
 **Get a free storage quote from U-Move: (08) 9459 8888**`,
   },
+  {
+    slug: "container-home-perth-guide-2026",
+    title: "Building a Container Home in Perth: What You Need to Know in 2026",
+    description: "Everything you need to know about building a shipping container home in Perth. Planning approvals, costs, insulation, and why containers make great granny flats and studios.",
+    date: "2026-02-28",
+    image: "/images/Black-Box-Shipping-Container-Home-exterior-1024x572.jpeg",
+    imageAlt: "Shipping container home exterior Perth",
+    category: "Modifications",
+    readTime: "7 min read",
+    content: `## Building a Container Home in Perth
+
+Shipping container homes are gaining serious traction in Perth. They're fast to build, cost-effective, and surprisingly stylish when done right. Here's what you need to know before starting your project.
+
+### Why Containers Work for Housing
+
+A standard 40ft high-cube container gives you roughly 30 square metres of floor space — enough for a studio apartment or granny flat. Two containers side-by-side or stacked create a genuine 2-3 bedroom home.
+
+Key advantages:
+- **Speed** — a container home can be completed in 8-12 weeks vs 6-12 months for conventional builds
+- **Cost** — typically 20-40% cheaper per square metre than traditional construction
+- **Strength** — designed to withstand ocean transport, they handle Perth's weather easily
+- **Sustainability** — repurposing steel containers reduces construction waste
+
+### Planning Approval in WA
+
+In Western Australia, container homes need council approval. The good news is most Perth councils now have clear guidelines for container dwellings, especially for ancillary accommodation (granny flats).
+
+You'll typically need:
+- Development Application to your local council
+- Building permit under the National Construction Code
+- Registered builder or owner-builder approval
+- Engineering certification for structural modifications
+
+### Insulation is Critical
+
+Perth's climate means insulation isn't optional. Without it, a steel container becomes an oven in summer. Options include:
+- **Spray foam** — best thermal performance, fills every gap
+- **Rigid board** — cost-effective, good R-value
+- **Blanket insulation** — traditional batts inside a stud frame
+
+### What U-Move Offers
+
+We modify containers for residential use at our Henderson workshop. From basic granny flats to fully fitted studios with plumbing, electrical, insulation, windows, and finishes. We handle the build — you handle the vision.
+
+**Interested in a container home? Call (08) 9459 8888 for a consultation.**`,
+  },
+  {
+    slug: "choosing-right-container-size-business",
+    title: "How to Choose the Right Container Size for Your Business",
+    description: "A practical guide for Perth businesses choosing between 10ft, 20ft, and 40ft shipping containers. Storage, workshops, retail — matched to the right size.",
+    date: "2026-02-20",
+    image: "/images/20ft-Standard-Tall.jpg",
+    imageAlt: "20ft standard shipping container for business use",
+    category: "Guides",
+    readTime: "5 min read",
+    content: `## Choosing the Right Container Size for Your Business
+
+Picking the wrong container size costs you money — either wasted space or not enough room. Here's how to choose.
+
+### 10ft Container — The Compact Option
+
+Internal dimensions: 2.98m x 2.35m x 2.38m
+
+Best for:
+- Garden tool storage
+- Small equipment lockers on job sites
+- Retail pop-ups with limited footprint
+- Residential backyard storage
+
+A 10ft container fits in most driveways and backyards. It's roughly the size of a small garden shed but significantly more secure and weatherproof.
+
+### 20ft Container — The All-Rounder
+
+Internal dimensions: 5.90m x 2.35m x 2.38m
+
+Best for:
+- General business storage and stock overflow
+- Workshop conversions with workbench space
+- Single-vehicle storage
+- Construction site tool storage
+- Small office conversions
+
+The 20ft is our most popular container. It holds roughly 10 standard pallets or the contents of a 2-3 bedroom house. Most businesses find this is the sweet spot between space and cost.
+
+### 40ft Container — Maximum Capacity
+
+Internal dimensions: 12.01m x 2.35m x 2.38m
+
+Best for:
+- Warehouse overflow and bulk stock storage
+- Large workshop or office conversions
+- Multi-vehicle storage
+- Mining and industrial applications
+- Container homes and cafes
+
+A 40ft container doubles the space of a 20ft at less than double the cost. If you're building a container office, cafe, or workshop, the extra length makes a significant difference to usability.
+
+### Still Unsure?
+
+Tell us what you're storing or building and we'll recommend the right size. Call (08) 9459 8888 or request a quote online.`,
+  },
+  {
+    slug: "container-cafe-pop-up-shop-perth",
+    title: "Starting a Container Cafe or Pop-Up Shop in Perth",
+    description: "How to turn a shipping container into a cafe, bar, or retail pop-up in Perth. Costs, council requirements, fit-out options, and real examples.",
+    date: "2026-02-10",
+    image: "/images/container-cafes-get-started-with-u-move.jpeg",
+    imageAlt: "Shipping container cafe conversion Perth",
+    category: "Modifications",
+    readTime: "6 min read",
+    content: `## Starting a Container Cafe or Pop-Up Shop in Perth
+
+Container cafes and pop-up shops are everywhere in Perth now — markets, breweries, beachside locations, and permanent spots. Here's how to make one happen.
+
+### Why Containers Work for Hospitality
+
+- **Cost** — a container cafe costs a fraction of a traditional fit-out
+- **Speed** — 4-8 weeks from concept to completion
+- **Mobility** — relocate to events, markets, or new locations
+- **Visual impact** — the industrial aesthetic draws attention
+- **Permits** — often simpler than permanent structures
+
+### What Goes Into a Container Cafe
+
+A typical 20ft container cafe conversion includes:
+- Commercial-grade kitchen benchtops and splashbacks
+- Plumbing for sinks, coffee machines, and drainage
+- Electrical with commercial outlets and lighting
+- Serving hatch or bi-fold window
+- Insulation and ventilation
+- Flooring (vinyl, epoxy, or timber)
+- External signage and branding
+- Gas connection points if required
+
+### Council Requirements in Perth
+
+Container cafes in public spaces or permanent locations need:
+- Development approval from your local council
+- Health Department food premises registration
+- Building compliance sign-off
+- Potentially a liquor licence if serving alcohol
+
+For temporary events and markets, requirements are usually simpler — check with your local council or event organiser.
+
+### Cost Guide
+
+A basic container cafe fit-out starts from around $15,000-$25,000 on top of the container cost. Premium builds with full commercial kitchens can reach $40,000-$60,000 depending on specifications.
+
+### U-Move Builds Container Cafes
+
+Our Henderson workshop has built container cafes, bars, and retail spaces for businesses across Perth. We handle the full conversion — you bring the concept, we build it.
+
+**Ready to start? Call (08) 9459 8888 or request a quote.**`,
+  },
+  {
+    slug: "dangerous-goods-container-storage-wa",
+    title: "Dangerous Goods Container Storage: What Perth Businesses Need to Know",
+    description: "Guide to dangerous goods shipping container storage in WA. AS1940 compliance, bunding, ventilation, and how U-Move builds compliant DG containers for mining and industry.",
+    date: "2026-01-25",
+    image: "/images/IMG_2064_2-768x1024.jpg",
+    imageAlt: "Dangerous goods shipping container storage",
+    category: "Mining",
+    readTime: "6 min read",
+    content: `## Dangerous Goods Container Storage in WA
+
+Storing hazardous materials incorrectly puts workers and the environment at risk — and can result in serious penalties. Here's what Perth businesses need to know about compliant DG container storage.
+
+### What Counts as Dangerous Goods?
+
+Under Australian standards, dangerous goods include:
+- Flammable liquids (fuels, solvents, paints)
+- Corrosive substances (acids, alkalis)
+- Oxidising agents
+- Toxic substances
+- Compressed gases
+
+If your business handles any of these, your storage must comply with AS1940 (Storage and Handling of Flammable and Combustible Liquids) and relevant WorkSafe WA regulations.
+
+### What a Compliant DG Container Includes
+
+U-Move builds dangerous goods containers with:
+- **Bunded floor** — containment sump to capture spills (typically 110% of largest container volume)
+- **Ventilation** — natural or mechanical ventilation to prevent vapour buildup
+- **Explosion-proof electrical** — intrinsically safe lighting and switches where required
+- **Signage** — proper GHS/ADG hazard placards and safety signage
+- **Fire protection** — extinguisher brackets, spill kit storage
+- **Secure access** — heavy-duty lockable doors
+- **Drainage** — controlled drainage with bund tap
+
+### Who Needs DG Containers?
+
+Common users in WA include:
+- Mining operations storing fuels and chemicals
+- Construction companies with flammable materials
+- Workshops and mechanics storing solvents and oils
+- Agricultural businesses with pesticides and herbicides
+- Manufacturing with chemical inputs
+
+### Why Use a Container vs a Built Structure?
+
+Containers are relocatable, faster to deploy, and often cheaper than permanent DG stores. For mine sites that move between locations, a container DG store can follow the operation.
+
+### Our DG Container Experience
+
+U-Move has supplied dangerous goods containers to mining sites, construction companies, and industrial businesses across WA. All builds comply with AS1940 and are delivered ready for use.
+
+**Need a DG container? Call (08) 9459 8888 for specifications and pricing.**`,
+  },
+  {
+    slug: "how-to-prepare-for-container-delivery-perth",
+    title: "How to Prepare Your Property for a Container Delivery in Perth",
+    description: "Practical tips for preparing your Perth property for a shipping container delivery. Access requirements, ground preparation, council permits, and what to expect on delivery day.",
+    date: "2026-01-15",
+    image: "/images/Craig-0816-018.jpg",
+    imageAlt: "U-Move container delivery truck Perth",
+    category: "Guides",
+    readTime: "4 min read",
+    content: `## How to Prepare for a Container Delivery
+
+Getting a shipping container delivered to your property is straightforward — but a little preparation ensures it goes smoothly.
+
+### Access Requirements
+
+Our delivery trucks are large. You'll need:
+- **Width** — minimum 3 metres clear width for the truck to enter
+- **Height** — check for overhanging trees, powerlines, and awnings (4.5m clearance)
+- **Length** — the truck needs roughly 20 metres of straight run to slide a 20ft container off
+- **Surface** — firm, level ground. Soft grass or sand can cause issues
+- **Turning** — if the truck needs to turn on your property, allow generous turning radius
+
+### Ground Preparation
+
+Containers should sit on firm, level ground. Options include:
+- **Concrete pad** — ideal for permanent placement
+- **Compacted gravel** — good drainage, cost-effective
+- **Railway sleepers** — elevates the container, prevents moisture contact
+- **Direct on ground** — acceptable for short-term on hard surfaces
+
+Avoid placing containers directly on soft ground — they'll sink unevenly over time.
+
+### Do You Need Council Permission?
+
+In most Perth councils:
+- Temporary containers (under 3 months) usually don't need a permit
+- Permanent placement may need development approval
+- Check with your local council — rules vary by area
+
+If you're placing a container on a residential property long-term, it's worth a quick call to your council before delivery.
+
+### What Happens on Delivery Day
+
+1. Our driver calls ahead to confirm timing
+2. The truck arrives and positions at your property
+3. The container is slid off the truck using a tilt-tray
+4. Driver checks placement and ensures it's secure
+5. You inspect the container and confirm delivery
+
+The whole process takes about 20-30 minutes.
+
+### Tips
+
+- Be present on delivery day (or have someone there)
+- Mark the exact placement spot beforehand
+- Move vehicles, bins, and obstacles out of the access path
+- Have the lockbox key ready if you want to lock it immediately
+
+**Booking a delivery? Call U-Move at (08) 9459 8888.**`,
+  },
+  {
+    slug: "side-opening-containers-perth-guide",
+    title: "Side-Opening Containers: When and Why You Need One",
+    description: "Everything about side-opening shipping containers in Perth. Benefits over standard containers, use cases for workshops, retail, and warehousing. Pricing and availability from U-Move.",
+    date: "2026-01-05",
+    image: "/images/Easy-Open-Door-Handle-Close.jpg",
+    imageAlt: "Shipping container door handle detail",
+    category: "Guides",
+    readTime: "5 min read",
+    content: `## Side-Opening Containers: When and Why You Need One
+
+Standard shipping containers open from one end. Side-opening containers open along the full length — and that changes everything for certain use cases.
+
+### What is a Side-Opening Container?
+
+A side-opening container has full-length doors on one or both long sides, in addition to (or instead of) the standard end doors. They come in 2-door, 3-door, and 4-door configurations.
+
+### When Side-Opening Makes Sense
+
+**Workshops and tool storage** — walk-in access from the side means you can set up workbenches along the back wall and still get equipment in and out easily.
+
+**Retail and hospitality** — a side-opening 20ft container makes a perfect market stall, pop-up shop, or bar. Open the side and you have an instant serving counter.
+
+**Forklift loading** — standard containers require loading from the narrow end, making forklift access tricky. Side-opening gives you wide access for pallets and bulky items.
+
+**Event spaces** — open both sides of a 40ft container and you have a dramatic event structure or exhibition space.
+
+**Warehousing** — when you need to access specific items without unpacking everything, side access saves hours.
+
+### Sizes Available
+
+- 20ft side-opening (2 or 4 doors)
+- 40ft side-opening (2, 3, or 4 doors)
+- High cube variants for extra height
+
+### Pricing
+
+Side-opening containers cost more than standard containers due to the additional fabrication. New units typically start from $9,000+ depending on size and door configuration.
+
+### Availability at U-Move
+
+We stock and modify side-opening containers at our Henderson depot. Available for sale or hire. We can also retrofit side openings onto standard containers as a modification.
+
+**Need a side-opening container? Call (08) 9459 8888 for current stock and pricing.**`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
